@@ -8,7 +8,7 @@ export default function Home() {
     <main className="bg-gray-100 min-h-screen">
       <Header />
       <TopCards />
-      <div className="grid p-4 md:grid-cols-3 grid-cols-1 gap-4">
+      <div className="grid px-4 py-0 md:grid-cols-3 grid-cols-1 gap-4">
         <BarChart />
         <RecentOrders />
       </div>
