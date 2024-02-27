@@ -9,18 +9,20 @@ export const navData = [
     icon: <RxPerson size={24} />,
     href: "/customers",
     label: "Customers",
+    disabled: false,
   },
   {
     id: 3,
     icon: <HiOutlineShoppingBag size={24} />,
     href: "/orders",
     label: "Orders",
+    disabled: false,
   },
   {
     id: 4,
     icon: <FiSettings size={24} />,
     href: "",
     label: "Settings",
-    disabled: "",
+    disabled: true,
   },
 ];

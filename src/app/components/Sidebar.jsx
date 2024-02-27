@@ -14,8 +14,14 @@ const Sidebar = ({ children }) => {
             </div>
           </Link>
           <span className="border-b-[1px] border-gray-200 w-full "> </span>
-          {navData.map(({ href, icon, id, label }) => (
-            <LinkComponent href={href} icon={icon} key={id} label={label} />
+          {navData.map(({ href, icon, id, label, disabled }) => (
+            <LinkComponent
+              href={href}
+              icon={icon}
+              key={id}
+              label={label}
+              disabled={disabled}
+            />
           ))}
         </div>
       </div>
