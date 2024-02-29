@@ -30,7 +30,7 @@ export const data = [
     total: 495.85,
     status: "Completed",
     method: "Visa",
-    date: "1 Hourago",
+    date: "1 Hour ago",
   },
   {
     id: 4,
