@@ -13,7 +13,7 @@ Customer's Page:
 Order Page: 
 ![order-page](https://github.com/Liciacodes/Customer-and-Order-Dashboard/assets/43540999/e4cf2e80-ba5b-47ff-a0ff-0b956bd5511a)
 
-What i have learnt from this project:
+What I have learnt from this project:
 1. Building reusable components in React/Nextjs.
 2. Converting design to code.
 3. Fetching and displaying dynamic data.
