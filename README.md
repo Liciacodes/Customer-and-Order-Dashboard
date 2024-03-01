@@ -3,6 +3,7 @@ Description: This is a responsive Customers and Order dashboard project built wi
 Tech Stack: Html, Css, Javascript, TailwindCss, React Charts.
 
 Design: 
+
 Dashboard Page:
 ![customer-order-dashboard](https://github.com/Liciacodes/Customer-and-Order-Dashboard/assets/43540999/223fae7a-9dba-4352-9d12-46147f984089)
 
