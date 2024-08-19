@@ -21,7 +21,7 @@ const Sidebar = ({ children }) => {
         {!showMenu && (
           <GiHamburgerMenu
             size={50}
-            className="text-black pt-2 cursor-pointer"
+            className="mx-3 text-black pt-2 cursor-pointer"
           />
         )}
       </div>

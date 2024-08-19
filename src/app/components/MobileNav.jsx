@@ -14,7 +14,7 @@ export const MobileNav = ({ showMenu, toggleMenu }) => {
         ></div>
       )}
       <div
-        className={`lg:hidden fixed inset-y-0 left-0 p-4 w-full bg-white border-r-[1px] justify-between z-20 h-[50%] ${
+        className={`lg:hidden fixed inset-y-0 left-0 p-4 w-full bg-white border-r-[1px] justify-between z-20 h-2/3 ${
           showMenu ? "" : "hidden"
         }`}
       >
@@ -28,7 +28,7 @@ export const MobileNav = ({ showMenu, toggleMenu }) => {
           )}
         </div>
         <div
-          className={`flex flex-col items-center justify-center ${
+          className={`flex flex-col items-center justify-center mx-3 ${
             showMenu ? "" : "hidden"
           }`}
         >
@@ -37,10 +37,11 @@ export const MobileNav = ({ showMenu, toggleMenu }) => {
               <RxSketchLogo size={20} />
             </div>
           </Link>
-
-          {navData.map(({ href, icon, id, label }) => (
-            <LinkComponent href={href} icon={icon} key={id} label={label} />
-          ))}
+          <div className="flex flex-col justify-center mx-1">
+            {navData.map(({ href, icon, id, label }) => (
+              <LinkComponent href={href} icon={icon} key={id} label={label} />
+            ))}
+          </div>
         </div>
       </div>
     </>

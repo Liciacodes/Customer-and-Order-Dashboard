@@ -20,7 +20,7 @@ const LinkComponent = ({ href, icon, label, disabled }) => {
       <div
         className={`${pathname === href ? "text-purple-500" : ""} ${
           disabled ? "cursor-not-allowed" : "cursor-pointer"
-        }  hover:bg-gray-100 lg:hover:w-52 lg:hover:rounded-lg  cursor-pointer my-2 py-3  inline-flex gap-x-2 px-2 items-center text-gray-600`}
+        }  hover:bg-gray-100 lg:hover:w-52 lg:hover:rounded-lg  cursor-pointer my-2 py-3  flex gap-x-2 px-2 items-center text-gray-600`}
       >
         <span>{icon}</span>
         <span>{label}</span>
